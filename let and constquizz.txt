@@ -1,0 +1,16 @@
+var: Variables declared with var can be re-assigned and their value can be changed.
+
+const: Variables declared with const are
+ block-scoped like let, but their let, but their value cannot be re-assigned after it is initialized. value cannot be re-assigned after it is initialized. const creates a read-only variable that cannot be changed once it has been assigned a value.
+
+
+
+
+let: Variables declared with let can be re-assigned and their value can be changed.
+
+const: Variables declared with const are read-only and cannot be re-assigned
+
+
+
+Hoisting is a JavaScript mechanism where variable and function declarations are moved to the top of their containing scope during the compilation phase before the code is executed. However, only the declarations are hoisted, not the initializations.
+
